@@ -1,0 +1,23 @@
+{
+  "name": "first-angular-react",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "samfish204 <samfish204@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.8.3",
+    "angular-ui-router": "ui-router#^1.1.0",
+    "react": "^16.1.0",
+    "skeleton": "^2.0.4"
+  }
+}

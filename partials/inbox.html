@@ -1,0 +1,32 @@
+<h2>
+    Inbox
+</h2>
+<h3>
+    You have {{messages.length}} unread messages
+</h3>
+<table>
+    <thead>
+        <th>
+            Sender
+        </th>
+        <th>
+            Subject
+        </th>
+        <th>
+            Date
+        </th>
+    </thead>
+    <tr ng-repeat="message in messages">
+        <td>
+            {{message.sender}}
+        </td>
+        <td>
+            <a ui-sref="message({id:message.id})">
+                {{message.subject}}
+            </a>
+        </td>
+        <td>
+            {{message.date | date}}
+        </td>
+    </tr> 
+</table>
